@@ -21,7 +21,7 @@ const projects = [
     description:
       "Django blog with admin panel, markdown posts, and search.",
     tags: ["Django", "SQLite", "Tailwind"],
-    link: "#",
+    link: "https://mypersonalblog-vidv.onrender.com/",
   },
 ];
 
