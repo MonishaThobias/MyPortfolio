@@ -32,28 +32,28 @@ const ContactForm = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex-1 flex flex-col gap-4 bg-white p-6 rounded-xl shadow-md"
+          className="border border-white flex-1 flex flex-col gap-4 bg-gray-900/50  p-6 rounded-xl shadow-md"
         >
           <input
             type="text"
             name="name"
             placeholder="Your Name"
             required
-        className="border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="border border-white  text-white rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
             required
-            className="border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border border-white  text-white rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
             name="message"
             placeholder="Your Message"
             rows="5"
             required
-        className="border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="border border-white  text-white rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           <button
             type="submit"
