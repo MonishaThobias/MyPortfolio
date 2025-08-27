@@ -1,0 +1,47 @@
+html { scroll-behavior: smooth; }
+.blinking-cursor {
+  display: inline-block;
+  width: 1ch;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 0 }
+  50% { opacity: 1 }
+}
+
+
+@keyframes movePebbles {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+
+.pebble-bg {
+  background-image: url('../images/bg.webp');
+  background-repeat: repeat;
+  animation: movePebbles 60s linear infinite;
+}
+
+/*
+.light-pebble-bg {
+  background-image: url('../images/light-blue-yellow-background-with-small-and-big-stars-vector.jpg');
+  background-repeat: repeat;
+  animation: movePebbles 60s linear infinite;
+} */
+
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  display: inline-block;
+  transform-origin: 70% 70%;
+  animation: wave 1.5s infinite;
+}
