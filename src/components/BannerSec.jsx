@@ -22,7 +22,7 @@ const BannerSec = () => {
   Fullstack Developer — I build clean, scalable, and responsive web applications.
 </h2>
 <p className="text-gray-400 max-w-xl">
-  Specializing in Python, React, Tailwind, and modern web tooling. 
+  Specializing in Python, React, Django, Tailwind, and modern web tooling. 
   I love shipping pixel-perfect, responsive interfaces and smooth developer experiences.
 </p>
             <div className="mt-6 flex gap-3">
