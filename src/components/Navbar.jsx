@@ -37,15 +37,16 @@ export default function Navbar() {
                 <div className="ml-10 flex items-center space-x-4">
                   {navigation.map((item) => (
                     <a
-                      key={item.name}
-                      href={item.href}
-                      className={classNames(
-                        "text-gray-300 hover:bg-gray-700 hover:text-white",
-                        "rounded-md px-3 py-2 text-sm font-medium", {...(item.download? {download:"Monisha_CV.pdf"}: {})}
-                      )}
-                    >
-                      {item.name}
-                    </a>
+    key={item.name}
+    href={item.href}
+    className={classNames(
+      "text-gray-300 hover:bg-gray-700 hover:text-white",
+      "rounded-md px-3 py-2 text-sm font-medium"
+    )}
+    {...(item.download ? { download: "Monisha_CV.pdf", target: "_blank", rel: "noopener noreferrer" } : {})}
+  >
+    {item.name}
+  </a>
                   ))}
                   {/* Theme toggle button */}
 {/* <ThemeToggle /> */}

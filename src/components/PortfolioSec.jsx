@@ -8,12 +8,14 @@ const projects = [
     description:
       "Full-stack app (React + FastAPI + PostgreSQL). Patient records, appointments, billing, inventory.",
     tags: ["React", "FastAPI", "PostgreSQL"],
+    repo:"#",
     link: "#",
   },
   {
     title: "E-commerce Website",
     description: "Online store with product listing, cart, checkout, and payment integration. Built with React and Tailwind for responsive UI.",
     tags: ["React", "Tailwind", "Stripe"],
+    repo:"#",
     link: "#",
   },
   {
@@ -21,6 +23,7 @@ const projects = [
     description:
       "Django blog with admin panel, markdown posts, and search.",
     tags: ["Django", "SQLite", "Tailwind"],
+    repo:"https://github.com/MonishaThobias/MyBlog",
     link: "https://mypersonalblog-vidv.onrender.com/",
   },
 ];
@@ -50,10 +53,20 @@ const PortfolioSec = () => {
               ))}
             </ul>
             <a
-              href={p.link}
+              href={p.repo}
               className="mt-4 inline-block text-sm font-medium text-blue-600 hover:underline"
+               target="_blank"
+  rel="noopener noreferrer"
             >
               View Repo →
+            </a> &nbsp; &nbsp; &nbsp;&nbsp;
+              <a
+              href={p.link}
+              className="mt-4 inline-block text-sm font-medium text-blue-600 hover:underline"
+               target="_blank"
+  rel="noopener noreferrer"
+            >
+              Live Demo →
             </a>
           </motion.article>
         ))}
