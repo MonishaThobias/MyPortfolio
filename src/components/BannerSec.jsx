@@ -12,11 +12,11 @@ const BannerSec = () => {
       <section id="home" className="mx-auto max-w-6xl px-4 py-16 md:py-24">
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
-            <p className="text-sm uppercase tracking-widest text-slate-500">
+            
               <RoleWriter />
-            </p>
-            <h1 className="text-4xl font-bold flex text-white mb-4">
-  Hi <span className="inline-block animate-wave">👋</span>, I'm Mary Monisha.T
+           
+            <h1 className="text-4xl font-bold flex flex-wrap text-white mb-4">
+  Hi <span className="inline-block animate-wave">👋</span>, <span className='block sm:inline'>I'm Mary Monisha.T</span>
 </h1>
 <h2 className="text-xl text-gray-300 mb-6">
   Fullstack Developer — I build clean, scalable, and responsive web applications.
@@ -40,7 +40,7 @@ const BannerSec = () => {
               </a>
             </div>
           </div>
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-start md:justify-end">
            
             <div className="h-40 w-40 overflow-hidden rounded-2xl border md:h-56 md:w-56">
               <img
