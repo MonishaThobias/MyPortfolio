@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Hospital Management System",
     description:
-      "Full-stack app (React + FastAPI + PostgreSQL). Patient records, appointments, billing, inventory.",
+      "Full-stack app (React + FastAPI + PostgreSQL). Patient records, appointments, billing.",
     tags: ["React", "FastAPI", "PostgreSQL"],
     repo:"https://github.com/MonishaThobias/HospitalManagement/",
     link: "https://hospital-management-4kqj.vercel.app/",
