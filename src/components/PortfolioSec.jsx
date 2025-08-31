@@ -8,8 +8,8 @@ const projects = [
     description:
       "Full-stack app (React + FastAPI + PostgreSQL). Patient records, appointments, billing, inventory.",
     tags: ["React", "FastAPI", "PostgreSQL"],
-    repo:"#",
-    link: "#",
+    repo:"https://github.com/MonishaThobias/HospitalManagement/",
+    link: "https://hospital-management-4kqj.vercel.app/",
   },
   {
     title: "E-commerce Website",
