@@ -13,10 +13,10 @@ const projects = [
   },
   {
     title: "E-commerce Website",
-    description: "Online store with product listing, cart, checkout, and payment integration. Built with React and Tailwind for responsive UI.",
+    description: "Online store with product listing, cart, checkout. Built with React and Tailwind for responsive UI.",
     tags: ["React", "Tailwind", "Stripe"],
-    repo:"#",
-    link: "#",
+    repo:"https://github.com/MonishaThobias/E-Cart-Website.git",
+    link: "https://e-cart-website-mu.vercel.app/",
   },
   {
     title: "Personal Blog",
