@@ -8,6 +8,7 @@ import logo from '../assets/images/Mary Monisha.png'
 const navigation = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
+  {name: "Skills", href: "#skills"},
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
   { name: "Resume", href: "/CV/Monisha_CV.pdf" ,  download:true},
