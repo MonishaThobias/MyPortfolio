@@ -2,13 +2,39 @@
 
 <img width="1071" height="380" alt="Screenshot (02)" src="https://github.com/user-attachments/assets/5384e855-0b49-40e4-a806-3b2287dbf6d1" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Monisha’s Portfolio
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio website!  
+This site showcases my projects, skills, background, and contact information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 Live Demo: [monisha’s portfolio](https://my-portfolio-drab-two-39.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 About
+
+This portfolio is designed to present my work, skills, and experiences in a clean, responsive, and modern format. It highlights projects I’ve built, technologies I use, and ways to contact me.
+
+---
+
+## 📂 Features
+
+- Responsive design (works on desktop, tablet, mobile)  
+- Hero / intro section  
+- About Me
+- skills  section 
+- Projects  section
+- Services section
+- Contact form and contact details 
+- Links to social media / GitHub / LinkedIn  
+- Smooth animations / transitions (where applicable)
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+- Frontend: ( React )  
+- Styling: (Tailwind CSS )  
+- Hosting: Vercel  
+
+---
